@@ -1,0 +1,63 @@
+fancybox: true ## If you want to use fancybox please set the value to true.
+duoshuo: migdal-bavel ## Your duoshuo_shortname, e.g. username
+disqus: ## Your disqus_shortname, e.g. username
+google_search: ## Use Google search, true/false.
+baidu_search:  ## Use Baidu search, true/false.
+swiftype: ## Your swiftype_key, e.g. m7b11ZrsT8Me7gzApciT
+tinysou: ## Your tinysou_key, e.g. 4ac092ad8d749fdc6293
+self_search: true ## Use a jQuery-based local search engine, true/false.
+google_analytics: ## Your Google Analytics tracking id, e.g. UA-42425684-2
+baidu_analytics: d0f9ddc5837fa2c13aa39295424a1eec ## Your Baidu Analytics tracking id, e.g. 8006843039519956000
+shareto: true ## If you want to use the share button please set the value to true.
+busuanzi: true ## If you want to use Busuanzi page views please set the value to true.
+
+menu:
+  - page: home
+    directory: .
+    icon: fa-home
+  - page: archive
+    directory: archives/
+    icon: fa-archive
+  - page: about
+    directory: about/
+    icon: fa-user
+  - page: timeline
+    directory: timeline/
+    icon: fa-archive
+
+widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts, rencent_comments and links.
+  - search
+  - category
+  - tag
+  - recent_posts
+  - recent_comments
+  - links
+
+links:
+  - title: Pierre Fu 法国逍遥少年
+    url: http://mathpluscode.com/
+  - title: v1ns0n 上交苦逼博士
+    url: http://v1ns0n.github.io/
+  - title: xiaoyc 肖大神
+    url: http://xiaoyc.com/
+  - title: 周男神
+    url: http://handsomeone.com/
+
+timeline:
+  - num: 1
+    word: 2009/7/19-初识c
+  - num: 2
+    word: 2011/10/13-初识c++
+  - num: 3
+    word: 2013/5/18-初识python
+  - num: 4
+    word: 2015/4/10-初识github
+  - num: 5
+    word: 2015/8/22-初次搭建个人博客
+
+# Static files
+js: js
+css: css
+
+# Theme version
+version: 0.0.0
